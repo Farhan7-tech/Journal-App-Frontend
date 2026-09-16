@@ -1,18 +1,4 @@
-<div align="center">
-
-# 📔 Daily Diary · Journal App Frontend
-
-**A private online journal: sign up, log in, and keep your daily entries behind JWT authentication.**
-
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![React Router](https://img.shields.io/badge/React%20Router-7-CA4245?style=flat-square&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
-
-</div>
-
----
+<a href="https://github.com/Farhan7-tech/Journal-App-Frontend"><img src=".github/assets/banner.svg" width="100%" alt="Daily Diary: a private place to write."></a>
 
 ## About
 
@@ -84,8 +70,6 @@ src/
 - [ ] Edit and delete entries
 - [ ] Move the API base URL into an environment variable
 
----
+<br>
 
-<div align="center">
-Built by <a href="https://github.com/Farhan7-tech">Mohd Farhan</a>
-</div>
+<a href="https://github.com/Farhan7-tech"><img src=".github/assets/footer.svg" width="100%" alt="Built by Mohd Farhan. More projects on GitHub."></a>
