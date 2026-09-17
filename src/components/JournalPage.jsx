@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "../lib/api";
 import { useNavigate } from "react-router-dom";
 
 const JournalPage = () => {
@@ -20,7 +21,7 @@ const JournalPage = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "http://localhost:8080/journal/Journal",
+        `${API_BASE_URL}/journal/Journal`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -36,7 +37,7 @@ const JournalPage = () => {
     try {
       const token = localStorage.getItem("token");
       await axios.post(
-        "http://localhost:8080/journal/Journal",
+        `${API_BASE_URL}/journal/Journal`,
         { content: entry },
         { headers: { Authorization: `Bearer ${token}` } }
       );

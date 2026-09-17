@@ -44,6 +44,8 @@ npm run dev
 
 Open the URL Vite prints, usually http://localhost:5173.
 
+The app calls the API at `http://localhost:8080` by default. To point it somewhere else, copy `.env.example` to `.env.local` and set `VITE_API_BASE_URL`.
+
 | Script | What it does |
 | --- | --- |
 | `npm run dev` | Start the dev server with hot reload |
@@ -68,7 +70,7 @@ src/
 
 - [ ] Wire up the "Sign in with Google" button (`@react-oauth/google` is already installed)
 - [ ] Edit and delete entries
-- [ ] Move the API base URL into an environment variable
+- [x] Move the API base URL into an environment variable
 
 <br>
 

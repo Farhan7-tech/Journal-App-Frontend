@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "../lib/api";
 
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const SignUpPage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/journal/public/signup", // API endpoint for Sign Up
+        `${API_BASE_URL}/journal/public/signup`, // API endpoint for Sign Up
         formData
       );
       if (response.status === 200) {
