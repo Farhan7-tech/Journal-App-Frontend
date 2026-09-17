@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { API_BASE_URL } from "../lib/api";
 import myImage from "/src/assets/image2.png";
 import { Link } from "react-router-dom";
 
@@ -16,7 +17,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8080/journal/public/login",
+        `${API_BASE_URL}/journal/public/login`,
         formData
       );
       if (response.status === 200) {
